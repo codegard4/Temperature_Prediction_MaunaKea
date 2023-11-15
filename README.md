@@ -17,6 +17,6 @@ For more information refer to the Project Documentation
 ## Example
 
 ```bash
-python your_script_name.py -o MyTemperaturePredictions.html -p 18.5 -m 7 -a 0.8
+python tempPredBp.py -o TemperaturePrediction.html -p 18.5 -m 7 -a 0.8
 
-This command will generate predictions based on 7 days of historical data, adjusting the model with a factor of 0.8, and save the output graph in "MyTemperaturePredictions.html".
+This command will generate predictions based on 7 days of historical data, adjusting the model with a factor of 0.8, and save the output graph in "TemperaturePrediction.html".
