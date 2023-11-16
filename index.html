@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maunakea Temperature Prediction</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            color: #333;
+            background-color: #f0f0f0;
+        }
+
+        h1, h2 {
+            color: #3498db;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+        }
+
+        .catalog-link {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Maunakea Temperature Prediction</h1>
+
+    <!-- Description Section with Updated Bullet Points -->
+    <div>
+        <h2>Description</h2>
+        <ul>
+            <li><strong>Project Purpose:</strong> To predict the outside temperature at the telescope at opening time. Utilizes temperature prediction for setting inner dome temperatures close to the outside, minimizing airflow disturbance to instruments.</li>
+            <li><strong>Deliverables:</strong> Background information on Maunakea’s temperature trends and correlations between predictive variables and temperature. A model for temperature at the summit of Maunakea. Descriptive statistics for model accuracy. Plots overlaying the model on top of daily temperature data.</li>
+            <li><strong>Proposed Solutions:</strong> Historical temperature data without a model. Linear and polynomial models for temperature. Weighted model of temperature using historical data. Neural network/machine learning algorithm.</li>
+            <li><strong>Chosen Solution:</strong> Using a trapezoidal integration model.</li>
+            <li><strong>Data Import & Cleaning:</strong> Data stored in two CSV files with 11 columns each. Columns include date, time, various temperature readings, humidity, barometric pressure, and dewpoint. Cleaning involves removing erroneous data points, filtering temperature and pressure values, and converting units.</li>
+            <li><strong>Variable Characterization:</strong> All "Out" variables used to predict temperature, considering short- and long-term changes. Temperature influenced by seasonal trends, daily sunlight, barometric pressure, and humidity.</li>
+            <li><strong>Research Questions:</strong> Investigates the effects of changing barometric pressure on temperature. Explores patterns in warming and cooling cycles, potential aggregation by month, and the impact of linear and polynomial models. Examines the correlation between daytime high and nighttime low temperatures.</li>
+        </ul>
+    </div>
+
+    <!-- Other Sections (if any) -->
+
+</body>
+
+</html>
 
