@@ -99,11 +99,11 @@ class TemperatureModel():
         self.prediction_days = days
     
     def _get_data_archive(self):
-        tel = 1
-        dataArch = DataArchive(tel)
-        daynum = 9
-        channel_t = "k0:met:tempRaw"
-        channel_p = "k0:met:pressureRaw"
+        tel =
+        dataArch =
+        daynum =
+        channel_t = 
+        channel_p = 
         name, xt, yt = dataArch.getData(channel_t, (datetime.now() - timedelta(days = daynum)), nrSecs=86400 * daynum)
         name, xp, yp = dataArch.getData(channel_p, (datetime.now() - timedelta(days = daynum)), nrSecs=86400 * daynum)
 
